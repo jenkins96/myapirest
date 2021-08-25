@@ -1,6 +1,5 @@
 
 const slidesController = require('../controllers/slides.controller');
-const galeriesController = require('../controllers/galeries.controller');
 const express = require('express');
 const app = express();
 const {verifyToken} = require('../middlewares/authenthication');

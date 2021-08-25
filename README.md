@@ -25,11 +25,16 @@
 
 ```bash
 ├───archives
+│   ├───articles
+│   ├───galery
+│   └───slide
 ├───config
 ├───controllers
 ├───middlewares
 ├───models
 ├───node_modules
+└───routes
+```
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
