@@ -7,22 +7,14 @@
   <h3 align="center">REST API</h3>
 
   <p align="center">
-    An Awesome ReadME Generator To Jumpstart Your Projects!
     <br/>
     <br/>
     <a href="https://github.com/jenkins96/myapirest"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/jenkins96/myapirest">View Demo</a>
-    .
-    <a href="https://github.com/jenkins96/myapirest/issues">Report Bug</a>
-    .
-    <a href="https://github.com/jenkins96/myapirest/issues">Request Feature</a>
+    
   </p>
 </p>
-
-
-
 
 ## Table Of Contents
 
@@ -32,11 +24,10 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Authors](#authors
+* [Author](#author)
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
 
 This is a backend CRUD REST API project.
 Here, you can create a user, and once you are logged in, you will be able to interact with the API and do CRUD operations with 'slides', 'galeries', 'articles' and 'admins'.
@@ -125,7 +116,7 @@ git clone https://github.com/jenkins96/myapirest
 npm install
 ```
 
-3. Configure your connection with MongoDB in `db.config.js`
+3. Configure your connection with MongoDB in ```sh 'db.config.js' ```
 
 
 
@@ -167,7 +158,7 @@ localhost:3000/articles/create-article
 There are some routes where no authenthication is neededed.
 Tokens generated last for 30 days. It can be modify in './config/config.js' 
 
-## Authors
+## Author
 
-* **Adrián Jenkins** - ** - [Adrián Jenkins](https://github.com/jenkins96) - 
+* [Adrián Jenkins](https://github.com/jenkins96) - 
 
